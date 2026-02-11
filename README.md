@@ -32,11 +32,18 @@ _Feel free to connect and collaborate!_
 -->
 ---
 
+<!--
+
 <a href="https://github.com/csy214-beep/github-readme-stats">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=csy214-beep&show_icons=true&border_radius=10&theme=ambient_gradient&rank_icon=percentile" />
 </a>
 <a href="https://github.com/csy214-beep/convoychat">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=csy214-beep&layout=compact&langs_count=8&card_width=320&border_radius=10&theme=ambient_gradient" />
 </a>
+-->
+
+![Top Languages](./profile/top-langs.svg)
+![Stats](./profile/stats.svg)
+<!--![Pinned](./profile/pin-readme-tools-github-readme-stats.svg)-->
 
 ---
