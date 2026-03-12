@@ -20,4 +20,4 @@ jobs:
           output-path: 'profile/game.gif'
           # write-dataurl-to: 'README.md'   # for dataurl generation.
           strategy: 'random'
-          commit-message: 1
+          commit-message: "update commits history game"
