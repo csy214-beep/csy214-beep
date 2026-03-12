@@ -1,6 +1,6 @@
-<!-- 简约个人卡片 SVG – 中文格言版 -->
+<!-- 简约个人卡片 SVG – 中文格言版（高度修正） -->
 <!-- 设计：无头像 / 无 emoji / 英文主体 + 中文格言 / 可交互链接 -->
-<svg width="560" height="440" viewBox="0 0 560 440" xmlns="http://www.w3.org/2000/svg">
+<svg width="560" height="520" viewBox="0 0 560 520" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
       <style>
@@ -133,7 +133,6 @@
         <!-- 姓名 
         <div class="name">Pfolg</div>
 		-->
-		
         <!-- 位置 + 身份 -->
         <div class="meta">
           In SiChuan, PRC · Student
@@ -171,9 +170,9 @@
           <li>Creating something</li>
         </ul>
 
-        <!-- 中文格言 -->
+        <!-- 中文格言（已确保显示） -->
         <div class="motto">
-          _ 于二进制潮汐涨落之间求索 _
+          于二进制潮汐涨落之间求索
         </div>
 
         <!-- 鼓励连接的脚注（可删除） -->
