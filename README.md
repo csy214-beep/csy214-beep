@@ -5,7 +5,11 @@
 ![logo card](./profile/logo-card.svg)
 
 
-[Bilibili](https://space.bilibili.com/515553532) | [Steam](https://steamcommunity.com/profiles/76561199677607305/) | [Gitee](https://gitee.com/Pfolg) | [GitHub (csy214)](https://github.com/csy214-beep) | [GitHub (pfolg)](https://github.com/pfolg)
+[![Bilibili Space](https://img.shields.io/badge/Bilibili-Space-FB7299.svg?logo=bilibili)](https://space.bilibili.com/515553532)
+[![Steam Profile](https://img.shields.io/badge/Steam-Profile-2a4759.svg?logo=steam)](https://steamcommunity.com/profiles/76561199677607305/)
+[![Gitee Pfolg](https://img.shields.io/badge/Gitee-Pfolg-C71D23.svg?logo=gitee)](https://gitee.com/Pfolg)
+[![GitHub csy214-beep](https://img.shields.io/badge/GitHub-csy214--beep-181717.svg?logo=github)](https://github.com/csy214-beep)
+[![GitHub pfolg](https://img.shields.io/badge/GitHub-pfolg-181717.svg?logo=github)](https://github.com/pfolg)
 
 </div>
 
