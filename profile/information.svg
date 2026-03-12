@@ -1,0 +1,187 @@
+<!-- 简约个人卡片 SVG – 中文格言版 -->
+<!-- 设计：无头像 / 无 emoji / 英文主体 + 中文格言 / 可交互链接 -->
+<svg width="560" height="440" viewBox="0 0 560 440" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+      <style>
+        /* 全局样式 */
+        .card {
+          background: #ffffff;
+          border-radius: 24px;
+          box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+          padding: 28px 30px;
+          max-width: 500px;
+          margin: 0 auto;
+          transition: box-shadow 0.2s ease;
+        }
+        .card:hover {
+          box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+        }
+
+        /* 姓名 */
+        .name {
+          font-size: 32px;
+          font-weight: 600;
+          color: #1a1a2c;
+          margin: 0 0 6px 0;
+          letter-spacing: -0.5px;
+        }
+
+        /* 位置/身份 */
+        .meta {
+          color: #5a5a70;
+          font-size: 15px;
+          margin: 0 0 20px 0;
+          line-height: 1.5;
+        }
+
+        /* 链接行 */
+        .links {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          margin-bottom: 28px;
+          border-bottom: 1px solid #efeff2;
+          padding-bottom: 22px;
+        }
+        .links a {
+          background: #f2f2f6;
+          color: #2d2d44;
+          text-decoration: none;
+          font-size: 14px;
+          font-weight: 500;
+          padding: 6px 16px;
+          border-radius: 30px;
+          transition: background 0.15s, color 0.15s;
+          border: 1px solid transparent;
+        }
+        .links a:hover {
+          background: #e2e2ec;
+          color: #000;
+          border-color: #bdbdd0;
+        }
+
+        /* 区块标题 */
+        .section-title {
+          font-size: 18px;
+          font-weight: 600;
+          color: #222;
+          margin: 22px 0 12px 0;
+        }
+        .section-title:first-of-type {
+          margin-top: 0;
+        }
+
+        /* 技能标签 */
+        .skill-tag {
+          background: #edf0f7;
+          color: #1e2b4f;
+          font-size: 13px;
+          padding: 5px 14px;
+          border-radius: 30px;
+          display: inline-block;
+          margin: 0 6px 8px 0;
+          white-space: nowrap;
+        }
+        .skill-tag s {
+          color: #7a7a8c;
+          text-decoration: line-through;
+        }
+
+        /* 爱好列表 */
+        .hobby-list {
+          list-style: none;
+          padding: 0;
+          margin: 8px 0 0 0;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 12px;
+        }
+        .hobby-list li {
+          background: #f4f0ea;
+          color: #5f4e3a;
+          font-size: 14px;
+          padding: 5px 18px;
+          border-radius: 30px;
+        }
+
+        /* 格言（中文） */
+        .motto {
+          margin: 32px 0 8px 0;
+          padding: 16px 0 0 0;
+          border-top: 1.5px dashed #cdcddd;
+          text-align: center;
+          font-style: italic;
+          color: #4a4a66;
+          font-size: 16px;
+          letter-spacing: 0.3px;
+        }
+
+        /* 脚注（鼓励连接） */
+        .footer-note {
+          text-align: center;
+          font-size: 13px;
+          color: #a0a0b8;
+          margin-top: 8px;
+          font-style: italic;
+        }
+      </style>
+
+      <!-- 卡片主体 -->
+      <div class="card">
+
+        <!-- 姓名 
+        <div class="name">Pfolg</div>
+		-->
+		
+        <!-- 位置 + 身份 -->
+        <div class="meta">
+          In SiChuan, PRC · Student
+          A rookie
+        </div>
+
+        <!-- 社交链接（无图标，纯文本） -->
+        <div class="links">
+          <a href="https://space.bilibili.com/515553532" target="_blank">Bilibili</a>
+          <a href="https://steamcommunity.com/profiles/76561199677607305/" target="_blank">Steam</a>
+          <a href="https://gitee.com/Pfolg" target="_blank">Gitee</a>
+          <a href="https://github.com/csy214-beep" target="_blank">GitHub (csy214)</a>
+          <a href="https://github.com/pfolg" target="_blank">GitHub (pfolg)</a>
+        </div>
+
+        <!-- 技能区域 -->
+        <div class="section-title">Skills</div>
+        <div>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">C/C++</span>
+          <span class="skill-tag"><s>Fortran</s></span>
+          <span class="skill-tag"><s>R</s></span>
+          <span class="skill-tag"><s>C#</s></span>
+          <span class="skill-tag"><s>Kotlin</s></span>
+          <span class="skill-tag"><s>Dart</s></span>
+          <span class="skill-tag">Live2D</span>
+          <span class="skill-tag">Linux</span>
+          <span class="skill-tag">basic frontend</span>
+        </div>
+
+        <!-- 爱好区域 -->
+        <div class="section-title">Hobbies</div>
+        <ul class="hobby-list">
+          <li>Playing games</li>
+          <li>Creating something</li>
+        </ul>
+
+        <!-- 中文格言 -->
+        <div class="motto">
+          _ 于二进制潮汐涨落之间求索 _
+        </div>
+
+        <!-- 鼓励连接的脚注（可删除） -->
+        <div class="footer-note">
+          Feel free to connect and collaborate!
+        </div>
+
+      </div>
+    </div>
+  </foreignObject>
+</svg>
