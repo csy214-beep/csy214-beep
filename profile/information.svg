@@ -1,124 +1,133 @@
-<!-- 简约个人卡片 SVG – 字体调小版 -->
-<svg width="80%" height="auto" viewBox="0 0 400 450" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="auto" viewBox="0 0 650 240" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; height: 100%; box-sizing: border-box; padding: 5px;">
       <style>
         .card {
           background: #ffffff;
-          border-radius: 0;
-          box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-          padding: 24px 28px;
-          max-width: 500px;
-          margin: 0 auto;
-          transition: box-shadow 0.2s ease;
+          border: 1px solid #d0d7de;
+          border-radius: 6px;
+          padding: 18px 24px;
+          height: 100%;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
         }
-        .card:hover {
-          box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+        /* 顶部：信息与爱好横向分布 */
+        .header {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
         }
-        /* 位置/身份 */
-        .meta {
-          color: #5a5a70;
-          font-size: 14px;        /* 原15px */
-          margin: 0 0 18px 0;
-          line-height: 1.5;
-        }
-        /* 区块标题 */
-        .section-title {
-          font-size: 16px;         /* 原18px */
+        .meta-primary {
+          color: #24292f;
+          font-size: 15px;
           font-weight: 600;
-          color: #222;
-          margin: 18px 0 10px 0;
+          margin-bottom: 4px;
         }
-        .section-title:first-of-type {
-          margin-top: 0;
+        .meta-secondary {
+          color: #57606a;
+          font-size: 13px;
         }
-        /* 技能标签 */
-        .skill-tag {
-          background: #edf0f7;
-          color: #1e2b4f;
-          font-size: 12px;         /* 原13px */
-          padding: 4px 12px;
-          border-radius: 30px;
-          display: inline-block;
-          margin: 0 5px 6px 0;
-          white-space: nowrap;
+        .hobbies {
+          display: flex;
+          gap: 8px;
         }
-        .skill-tag s {
-          color: #7a7a8c;
-          text-decoration: line-through;
+        .hobby-tag {
+          background: #dafbe1;
+          color: #1a7f37;
+          border: 1px solid #a6e5a0;
+          font-size: 12px;
+          padding: 3px 10px;
+          border-radius: 2em;
+          font-weight: 500;
         }
-        /* 爱好列表 */
-        .hobby-list {
-          list-style: none;
-          padding: 0;
-          margin: 6px 0 0 0;
+        /* 中部：技能区域 */
+        .skills-container {
+          margin: 12px 0;
+        }
+        .section-title {
+          font-size: 12px;
+          font-weight: 600;
+          color: #57606a;
+          margin-bottom: 8px;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+        }
+        .tags {
           display: flex;
           flex-wrap: wrap;
-          gap: 10px;
+          gap: 8px;
         }
-        .hobby-list li {
-          background: #f4f0ea;
-          color: #5f4e3a;
-          font-size: 12px;         /* 原14px */
-          padding: 4px 16px;
-          border-radius: 30px;
+        .tag {
+          background: #f6f8fa;
+          color: #24292f;
+          border: 1px solid #d0d7de;
+          font-size: 12px;
+          padding: 4px 12px;
+          border-radius: 2em;
         }
-        /* 格言（中文） */
+        .tag.strike {
+          color: #8c959f;
+          background: #ffffff;
+          border-color: #e1e4e8;
+        }
+        .tag.strike s {
+          text-decoration-color: #8c959f;
+        }
+        /* 底部：格言与脚注 */
+        .footer {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-top: 1px dashed #d0d7de;
+          padding-top: 12px;
+        }
         .motto {
-          margin: 28px 0 6px 0;
-          padding: 14px 0 0 0;
-          border-top: 1.5px dashed #cdcddd;
-          text-align: center;
+          font-size: 14px;
+          color: #24292f;
           font-style: italic;
-          color: #4a4a66;
-          font-size: 14px;         /* 原16px */
-          letter-spacing: 0.3px;
+          font-weight: 500;
         }
-        /* 脚注 */
-        .footer-note {
-          text-align: center;
-          font-size: 12px;         /* 原13px */
-          color: #a0a0b8;
-          margin-top: 6px;
-          font-style: italic;
+        .note {
+          font-size: 12px;
+          color: #57606a;
         }
       </style>
+
       <div class="card">
-        <!-- 位置 + 身份（两行） -->
-        <div class="meta">
-          In SiChuan, PRC · Student <br></br>
-          A rookie
+        <div class="header">
+          <div>
+            <div class="meta-primary">In SiChuan, PRC · Student</div>
+            <div class="meta-secondary">A rookie</div>
+          </div>
+          <div class="hobbies">
+            <span class="hobby-tag">Playing games</span>
+            <span class="hobby-tag">Creating something</span>
+          </div>
         </div>
-        <!-- 技能区域 -->
-        <div class="section-title">Skills</div>
-        <div>
-          <span class="skill-tag">Python</span>
-          <span class="skill-tag">C/C++</span>
-          <span class="skill-tag"><s>Fortran</s></span>
-          <span class="skill-tag"><s>R</s></span>
-          <span class="skill-tag"><s>C#</s></span>
-          <span class="skill-tag"><s>Kotlin</s></span>
-          <span class="skill-tag"><s>Dart</s></span>
-          <span class="skill-tag">Live2D</span>
-          <span class="skill-tag">Linux</span>
-          <span class="skill-tag">basic frontend</span>
+
+        <div class="skills-container">
+          <div class="section-title">Skills</div>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">C/C++</span>
+            <span class="tag strike"><s>Fortran</s></span>
+            <span class="tag strike"><s>R</s></span>
+            <span class="tag strike"><s>C#</s></span>
+            <span class="tag strike"><s>Kotlin</s></span>
+            <span class="tag strike"><s>Dart</s></span>
+            <span class="tag">Live2D</span>
+            <span class="tag">Linux</span>
+            <span class="tag">basic frontend</span>
+          </div>
         </div>
-        <!-- 爱好区域 -->
-        <div class="section-title">Hobbies</div>
-        <ul class="hobby-list">
-          <li>Playing games</li>
-          <li>Creating something</li>
-        </ul>
-        <!-- 中文格言 -->
-        <div class="motto">
-          于二进制潮汐涨落之间求索
-        </div>
-        <!-- 脚注 -->
-        <div class="footer-note">
-          Feel free to connect and collaborate!
+
+        <div class="footer">
+          <div class="motto">于二进制潮汐涨落之间求索</div>
+          <div class="note">Feel free to connect and collaborate!</div>
         </div>
       </div>
     </div>
   </foreignObject>
 </svg>
-
