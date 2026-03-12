@@ -47,6 +47,18 @@ _Feel free to connect and collaborate!_
 <!--![Pinned](./profile/pin-readme-tools-github-readme-stats.svg)-->
 
 ---
-![My GitHub Game](./profile/game.gif)
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./profile/breakout-dark.svg"
+  />
+  <!-- https://raw.githubusercontent.com/csy214-beep/csy214-beep/main/profile/breakout-dark.svg -->
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./profile/breakout-light.svg"
+  />
+  <img alt="Breakout Game" src="./profile/breakout-light.svg" />
+</picture>
 
 ---
