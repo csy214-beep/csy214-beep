@@ -10,7 +10,7 @@
 
 - In SiChuan, PRC. Student
 - A rookie
-- Basic use of Python, Master a little Cpp, R, Fortran, C#, <span style="text-decoration:line-through">Dart</span>, Live2D, Linux and basic frontend development
+- Basic use of Python, Master a little C/Cpp, ~~Fortran, R, C#, Kotlin, Dart~~, Live2D, Linux and basic frontend development
 - Able to use AI chat proficiently
 - Hobbies
   - Playing games
