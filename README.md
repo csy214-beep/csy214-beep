@@ -47,3 +47,6 @@ _Feel free to connect and collaborate!_
 <!--![Pinned](./profile/pin-readme-tools-github-readme-stats.svg)-->
 
 ---
+![My GitHub Game](./profile/game.gif)
+
+---
