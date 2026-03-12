@@ -1,9 +1,15 @@
 <!-- index.md -->
 
+<div align="center">
+
+![logo card](./profile/logo-card.svg)
+
+</div>
+
 <!-- # About -->
 
-<div style="text-align:center;">
-  
+<div align="center">
+
 [Bilibili](https://space.bilibili.com/515553532) | [Steam](https://steamcommunity.com/profiles/76561199677607305/) | [Gitee](https://gitee.com/Pfolg) | [GitHub (csy214)](https://github.com/csy214-beep) | [GitHub (pfolg)](https://github.com/pfolg)
 
 </div>
