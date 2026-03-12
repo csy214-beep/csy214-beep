@@ -136,7 +136,7 @@
         {
           "foreground": "lightRed",
           "style": "plain",
-          "template": "λ",
+          "template": "\u306E",
           "type": "text"
         }
       ],
