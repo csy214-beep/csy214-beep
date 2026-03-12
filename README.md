@@ -5,11 +5,11 @@
 ![logo card](./profile/logo-card.svg)
 
 
-[![Bilibili Space](https://img.shields.io/badge/Bilibili-Space-FB7299.svg?logo=bilibili)](https://space.bilibili.com/515553532)
-[![Steam Profile](https://img.shields.io/badge/Steam-Profile-2a4759.svg?logo=steam)](https://steamcommunity.com/profiles/76561199677607305/)
-[![Gitee Pfolg](https://img.shields.io/badge/Gitee-Pfolg-C71D23.svg?logo=gitee)](https://gitee.com/Pfolg)
-[![GitHub csy214-beep](https://img.shields.io/badge/GitHub-csy214--beep-181717.svg?logo=github)](https://github.com/csy214-beep)
-[![GitHub pfolg](https://img.shields.io/badge/GitHub-pfolg-181717.svg?logo=github)](https://github.com/pfolg)
+[![Bilibili](https://img.shields.io/badge/Bilibili-bili__8070797671-FB7299.svg?logo=bilibili&style=for-the-badge)](https://space.bilibili.com/515553532)
+[![Steam](https://img.shields.io/badge/Steam-Pg-2a4759.svg?logo=steam&style=for-the-badge)](https://steamcommunity.com/profiles/76561199677607305/)
+[![Gitee](https://img.shields.io/badge/Gitee-Pfolg-C71D23.svg?logo=gitee&style=for-the-badge)](https://gitee.com/Pfolg)
+[![GitHub](https://img.shields.io/badge/GitHub-csy214--beep-181717.svg?logo=github&style=for-the-badge)](https://github.com/csy214-beep)
+[![GitHub](https://img.shields.io/badge/GitHub-pfolg-181717.svg?logo=github&style=for-the-badge)](https://github.com/pfolg)
 
 </div>
 
