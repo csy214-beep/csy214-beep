@@ -25,8 +25,16 @@
 
 <table width="100%">
   <tr>
-    <td valign="middle"><img src="./profile/top-langs.svg" alt="Top Languages" /></td>
-    <td valign="middle"><img src="./profile/stats.svg" alt="Stats" /></td>
+    <td valign="middle">
+      <picture>
+      <img src="./profile/top-langs.svg" alt="Top Languages" />
+      </picture>
+    </td>
+    <td valign="middle">
+      <picture>
+      <img src="./profile/stats.svg" alt="Stats" />
+      </picture>
+    </td>
   </tr>
 </table>
 
