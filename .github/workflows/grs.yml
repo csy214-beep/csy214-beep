@@ -40,9 +40,10 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit cards
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
-          git commit -m "Update README cards" || exit 0
-          git push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update README cards
+          file_pattern: profile/*.svg
+          commit_user_name: github-actions[bot]
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
