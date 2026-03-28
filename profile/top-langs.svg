@@ -130,7 +130,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="233.26"
+          width="233.38"
           height="8"
           fill="#3572A5"
         />
@@ -138,9 +138,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="233.26"
+          x="233.38"
           y="0"
-          width="10"
+          width="19.880000000000003"
           height="8"
           fill="#f34b7d"
         />
@@ -150,7 +150,7 @@
           data-testid="lang-progress"
           x="243.26"
           y="0"
-          width="12.59"
+          width="12.56"
           height="8"
           fill="#41b883"
         />
@@ -158,9 +158,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="245.85"
+          x="245.82"
           y="0"
-          width="11.23"
+          width="11.22"
           height="8"
           fill="#663399"
         />
@@ -168,9 +168,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="247.07999999999998"
+          x="247.04"
           y="0"
-          width="11.02"
+          width="11.01"
           height="8"
           fill="#f1e05a"
         />
@@ -178,7 +178,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="248.1"
+          x="248.04999999999998"
           y="0"
           width="10.77"
           height="8"
@@ -188,9 +188,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="248.87"
+          x="248.82"
           y="0"
-          width="10.68"
+          width="10.67"
           height="8"
           fill="#DA3434"
         />
@@ -198,11 +198,11 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="249.55"
+          x="249.48999999999998"
           y="0"
-          width="10.45"
+          width="10.51"
           height="8"
-          fill="#264b99"
+          fill="#C1F12E"
         />
       
       
@@ -211,7 +211,7 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 2.6 MB
+        Python 2.7 MB
       </text>
     </g>
   </g><g transform="translate(0, 25)">
@@ -258,9 +258,9 @@
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms">
-      <circle cx="5" cy="6" r="5" fill="#264b99" />
+      <circle cx="5" cy="6" r="5" fill="#C1F12E" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Inno Setup 5.2 KB
+        Batchfile 6.0 KB
       </text>
     </g>
   </g></g>
