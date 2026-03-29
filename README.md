@@ -3,6 +3,10 @@
 <div align="center">
 
 <picture>
+  <img src="./profile/hello.svg" alt="Hello" />
+</picture>
+
+<picture>
 <img src="./profile/logo-card.svg" alt="logo card" />
 </picture>
 

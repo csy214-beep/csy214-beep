@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 100" width="100%" style="display: block; margin: 0 auto; background: transparent;">
+  <style>
+    /* 全局文字样式 */
+    .message {
+  font-family: 'SF Mono', 'Menlo', 'Consolas', 'Courier New', monospace;
+  font-size: 24px;
+  font-weight: 800; /* 改为超粗体，也可用 bold */
+  fill: #1f2328;
+  dominant-baseline: middle;
+  text-anchor: middle;
+  opacity: 0;
+  transform: translateY(0);
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+/* 各消息独立颜色（可爱青春活力） */
+	.msg1 { fill: #FF80AB; }  /* 珊瑚红 */
+    .msg2 { fill: #E1BEE7; }  /* 橘黄 */
+    .msg3 { fill: #FFCC80; }  /* 紫罗兰 */
+    .msg4 { fill: #81D4FA; }  /* 翠绿 */
+
+    /* 上下切换动画：进入（从上落下）→ 停留 → 退出（向下淡出） */
+    @keyframes slideUpDown {
+      0% {
+        opacity: 0;
+        transform: translateY(-18px);
+      }
+      5% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      20% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      25% {
+        opacity: 0;
+        transform: translateY(18px);
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(18px);
+      }
+    }
+
+    /* 消息的动画延迟，实现首尾相接的循环切换 */
+    .msg1 { animation-name: slideUpDown; animation-delay: 0s; }
+    .msg2 { animation-name: slideUpDown; animation-delay: 4s; }
+    .msg3 { animation-name: slideUpDown; animation-delay: 8s; }
+    .msg4 { animation-name: slideUpDown; animation-delay: 12s; }
+
+    /* 自动适配 GitHub 暗色主题 */
+    @media (prefers-color-scheme: dark) {
+      .message {
+        fill: #f0f6fc; /* 暗色模式下的柔和亮色 */
+      }
+    }
+  </style>
+
+  <!-- 所有消息绝对定位堆叠于同一坐标，通过动画控制可见性与位移 -->
+  <text x="300" y="50" class="message msg1">Welcome to my GitHub!</text>
+  <text x="300" y="50" class="message msg2">Hello, World!</text>
+  <text x="300" y="50" class="message msg3">Nice to meet you!</text>
+  <text x="300" y="50" class="message msg4">Thanks for visiting!</text>
+</svg>
