@@ -10,8 +10,8 @@
 <img src="./profile/logo-card.svg" alt="logo card" />
 </picture>
 
-[![Blog](https://img.shields.io/badge/Blog-PBlog-d9e545.svg?logo=jinja&style=for-the-badge)](https://pfolg.top/)
-[![Bilibili](https://img.shields.io/badge/Bilibili-Space-FB7299.svg?logo=bilibili&style=for-the-badge)](https://space.bilibili.com/515553532)
+[![Blog](https://img.shields.io/badge/Blog-PBlog-ff8ec4.svg?logo=react&style=for-the-badge)](https://pfolg.top/)
+[![Bilibili](https://img.shields.io/badge/Bilibili-Space-40c5f1.svg?logo=bilibili&style=for-the-badge)](https://space.bilibili.com/515553532)
 [![Steam](https://img.shields.io/badge/Steam-Pg-2a4759.svg?logo=steam&style=for-the-badge)](https://steamcommunity.com/profiles/76561199677607305/)
 [![Gitee](https://img.shields.io/badge/Gitee-Pfolg-C71D23.svg?logo=gitee&style=for-the-badge)](https://gitee.com/Pfolg)
 <!--
