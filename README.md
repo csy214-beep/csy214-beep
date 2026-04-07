@@ -21,9 +21,25 @@
 
 </div>
 
-<picture>
-  <img src="./profile/information.svg" alt="Information" />
-</picture>
+<div style="text-align: left;">
+
+```json
+{
+  "location": "In SiChuan, PRC",
+  "identity": "Student",
+  "email": "hello@pg25-lsae.eu.org",
+  "personal_tagline": "A rookie",
+  "personal_motto": "于二进制潮汐涨落之间求索",
+  "contact_invitation": "Feel free to connect and collaborate!",
+  "hobbies": ["Playing games","Creating something"],
+  "skills": ["Python","C/C++","Live2D","Linux","basic frontend"],
+  "obsolete_skills": ["Fortran","R","C#","Kotlin","Dart"],
+  "prefer_tools": ["Microsoft Visual Studio Code","PyCharm","CLion","PS","PR"],
+  "tools": ["Neovim","OpenCode","Trae CN","Visual Studio","RStudio","Android Studio","IntelliJ IDEA","Unity"]
+}
+```
+
+</div>
 
 ---
 
