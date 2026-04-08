@@ -34,9 +34,9 @@
   "hobbies": ["Playing games","Creating something"],
   "skills": ["Python","C/C++","Live2D","basic frontend"],
   "obsolete_skills": ["Fortran","R","C#","Kotlin","Dart","Linux"],
-  "prefer_tools": ["Microsoft Visual Studio Code","PyCharm","CLion","PS","PR"],
+  "prefer_tools": ["Microsoft Visual Studio Code","PyCharm","CLion","PS","PR","Git"],
   "frameworks": ["Qt", "React", "Flask","Vue"],
-  "tools": ["OpenCode","Trae CN","Visual Studio","RStudio","Android Studio","IntelliJ IDEA","Unity","Live2D Cubism"]
+  "tools": ["OpenCode","Trae CN","Visual Studio","RStudio","Android Studio","IntelliJ IDEA","Unity","Live2D Cubism","VirtualBox","VMware","Docker"]
 }
 ```
 
