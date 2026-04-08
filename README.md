@@ -32,10 +32,11 @@
   "personal_motto": "于二进制潮汐涨落之间求索",
   "contact_invitation": "Feel free to connect and collaborate!",
   "hobbies": ["Playing games","Creating something"],
-  "skills": ["Python","C/C++","Live2D","Linux","basic frontend"],
-  "obsolete_skills": ["Fortran","R","C#","Kotlin","Dart"],
+  "skills": ["Python","C/C++","Live2D","basic frontend"],
+  "obsolete_skills": ["Fortran","R","C#","Kotlin","Dart","Linux"],
   "prefer_tools": ["Microsoft Visual Studio Code","PyCharm","CLion","PS","PR"],
-  "tools": ["Neovim","OpenCode","Trae CN","Visual Studio","RStudio","Android Studio","IntelliJ IDEA","Unity"]
+  "frameworks": ["Qt", "React", "Flask","Vue"],
+  "tools": ["OpenCode","Trae CN","Visual Studio","RStudio","Android Studio","IntelliJ IDEA","Unity","Live2D Cubism"]
 }
 ```
 
