@@ -1,0 +1,39 @@
+name: generate breakout svg
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # 每24小时运行一次
+  workflow_dispatch:          # 允许手动触发
+
+permissions:
+  contents: write             # 允许向仓库写入
+
+jobs:
+  generate-svg:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate breakout SVGs
+        uses: cyprieng/github-breakout@v1
+        with:
+          github_username: ${{ github.repository_owner }}
+
+      - name: Prepare profile directory
+        run: mkdir -p profile
+
+      - name: Move and rename SVGs to profile/
+        run: |
+          mv output/light.svg profile/breakout-light.svg
+          mv output/dark.svg profile/breakout-dark.svg
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update breakout game SVGs"
+          git push
