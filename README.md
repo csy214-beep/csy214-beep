@@ -30,6 +30,7 @@
 {
   "location": "In SiChuan, PRC",
   "identity": "Student",
+  "nickname": "Pfolg",  // ASCII: 8070797671, Meaning: Pig Fool, a character in <journey to the west>, my life style.
   "email": "hello@pg25-lsae.eu.org",
   "personal_tagline": "A rookie",
   "personal_motto": "于二进制潮汐涨落之间求索",
