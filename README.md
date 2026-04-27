@@ -60,7 +60,7 @@
 
 <div align="center">
 <picture>
-  <img src="https://count.getloli.com/@csy214-beep?name=csy214-beep&theme=original-new&padding=7&offset=0&align=center&scale=0.4&pixelated=1&darkmode=auto" alt="Moe-Counter" />
+  <img src="https://count.getloli.com/@csy214-beep?name=csy214-beep&theme=booru-lewd&padding=7&offset=0&align=center&scale=0.5&pixelated=1&darkmode=auto" alt="Moe-Counter" />
   <!-- https://github.com/journey-ad/Moe-Counter  -->
 </picture>
 </div>
