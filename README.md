@@ -49,39 +49,12 @@
 </div>
 
 ---
-
-<table width="100%">
-  <tr>
-    <td valign="middle">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg" />
-        <source media="(prefers-color-scheme: light)" srcset="./profile/top-langs-light.svg" />
-        <img alt="Top Languages" src="./profile/top-langs-light.svg" />
-      </picture>
-    </td>
-    <td valign="middle">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
-        <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg" />
-        <img alt="Stats" src="./profile/stats-light.svg" />
-      </picture>
-    </td>
-  </tr>
-</table>
-
----
-
+<div align="center">
 <picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="./profile/breakout-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="./profile/breakout-light.svg"
-  />
-  <img alt="Breakout Game" src="./profile/breakout-light.svg" />
+  <img src="https://pixel-profile.vercel.app/api/github-stats?username=csy214-beep&theme=fuji&pixelate_avatar=false" alt="Moe-Counter" />
+  <!-- https://github.com/LuciNyan/pixel-profile  -->
 </picture>
+</div>
 
 ---
 
