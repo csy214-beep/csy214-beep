@@ -51,7 +51,7 @@
 ---
 <div align="center">
 <picture>
-  <img src="https://pixel-profile.vercel.app/api/github-stats?username=csy214-beep&theme=fuji&pixelate_avatar=false" alt="Moe-Counter" />
+  <img src="https://pixel-profile.vercel.app/api/github-stats?username=csy214-beep&theme=monica&pixelate_avatar=false" alt="info" />
   <!-- https://github.com/LuciNyan/pixel-profile  -->
 </picture>
 </div>
