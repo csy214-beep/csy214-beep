@@ -4,18 +4,22 @@
   <img src="./profile/hello.svg" alt="Hello" />
 </picture>
 
+[Website](https://pg25-lsae.eu.org) · 
+[Bilibili](https://space.bilibili.com/515553532) · 
+[Steam](https://steamcommunity.com/profiles/76561199677607305/) · 
+[Gitee](https://gitee.com/Pfolg)
+
+
 <!--
 <picture>
 <img src="./profile/logo-card.svg" alt="logo card" />
 </picture>
--->
 
 [![Blog](https://img.shields.io/badge/Blog-PBlog-ff8ec4.svg?logo=react&style=for-the-badge)](https://pg25-lsae.eu.org)
 [![Bilibili](https://img.shields.io/badge/Bilibili-Space-40c5f1.svg?logo=bilibili&style=for-the-badge)](https://space.bilibili.com/515553532)
 [![Steam](https://img.shields.io/badge/Steam-Pg-2a4759.svg?logo=steam&style=for-the-badge)](https://steamcommunity.com/profiles/76561199677607305/)
 [![Gitee](https://img.shields.io/badge/Gitee-Pfolg-C71D23.svg?logo=gitee&style=for-the-badge)](https://gitee.com/Pfolg)
 
-<!--
 [![GitHub](https://img.shields.io/badge/GitHub-csy214--beep-181717.svg?logo=github&style=for-the-badge)](https://github.com/csy214-beep)
 [![GitHub](https://img.shields.io/badge/GitHub-pfolg-181717.svg?logo=github&style=for-the-badge)](https://github.com/pfolg)
 -->
