@@ -30,22 +30,23 @@
 
 <!-- prettier-ignore-start -->
 
-```json
-{
-  "location": "In SiChuan, PRC",
+```python
+info_overview:dict = {
+  "location": "Orion Arm of the Milky Way",
   "identity": "Student",
-  "nickname": "Pfolg",  // ASCII: 8070797671, Meaning: Pig Fool, a character in <journey to the west>, my life style.
-  "email": "hello@pg25-lsae.eu.org",
+  "nickname": "Pfolg",  # ASCII: 8070797671, Meaning: Pig Fool, a character in <journey to the west>, my life style.
+  "email": "hello@pg25-lsae.eu.org", # receiving email only
   "personal_tagline": "A rookie",
-  "personal_motto": "于二进制潮汐涨落之间求索",
+  "personal_motto": "Seeking between the ebb and flow of binary tides.",
   "contact_invitation": "Feel free to connect and collaborate!",
   "hobbies": ["Playing games", "Creating something"],
   "skills": ["Python", "C/C++", "Live2D", "basic frontend"],
-  "infrequently_skills": ["Fortran", "R", "C#", "Kotlin", "Dart", "Linux", "AutoHotkey"],
-  "prefer_tools": ["Microsoft Visual Studio Code", "PyCharm", "CLion", "PS", "PR", "Git"],
+  "infrequent_skills ": ["Fortran", "R", "C#", "Kotlin", "Dart", "Linux", "AutoHotkey"],
+  "preferred_tools": ["Microsoft Visual Studio Code", "PyCharm", "CLion", "GIMP", "Kdenlive", "Git"],
   "frameworks": ["Qt", "React", "Flask", "Vue"],
   "tools": ["OpenCode", "Trae CN", "Visual Studio", "RStudio", "Android Studio", "IntelliJ IDEA", "Unity", "Live2D Cubism", "VirtualBox", "VMware", "Docker", "QGIS"]
 }
+
 ```
 
 <!-- prettier-ignore-end -->
