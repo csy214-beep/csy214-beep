@@ -20,7 +20,7 @@
 [![Steam](https://img.shields.io/badge/Steam-Pg-2a4759.svg?logo=steam&style=for-the-badge)](https://steamcommunity.com/profiles/76561199677607305/)
 [![Gitee](https://img.shields.io/badge/Gitee-Pfolg-C71D23.svg?logo=gitee&style=for-the-badge)](https://gitee.com/Pfolg)
 
-[![GitHub](https://img.shields.io/badge/GitHub-csy214--beep-181717.svg?logo=github&style=for-the-badge)](https://github.com/csy214-beep)
+[![GitHub](https://img.shields.io/badge/GitHub-csy214--beep-181717.svg?logo=github&style=for-the-badge)](https://github.com/igugyj)
 [![GitHub](https://img.shields.io/badge/GitHub-pfolg-181717.svg?logo=github&style=for-the-badge)](https://github.com/pfolg)
 -->
 
@@ -56,7 +56,7 @@ info_overview:dict = {
 ---
 <div align="center">
 <picture>
-  <img src="https://pixel-profile.vercel.app/api/github-stats?username=csy214-beep&theme=monica&pixelate_avatar=false" alt="info" />
+  <img src="https://pixel-profile.vercel.app/api/github-stats?username=igugyj&theme=monica&pixelate_avatar=false" alt="info" />
   <!-- https://github.com/LuciNyan/pixel-profile  -->
 </picture>
 </div>
@@ -65,7 +65,7 @@ info_overview:dict = {
 
 <div align="center">
 <picture>
-  <img src="https://count.getloli.com/@csy214-beep?name=csy214-beep&theme=booru-lewd&padding=7&offset=0&align=center&scale=0.7&pixelated=1&darkmode=auto" alt="Moe-Counter" />
+  <img src="https://count.getloli.com/@igugyj?name=igugyj&theme=booru-lewd&padding=7&offset=0&align=center&scale=0.7&pixelated=1&darkmode=auto" alt="Moe-Counter" />
   <!-- https://github.com/journey-ad/Moe-Counter  -->
 </picture>
 </div>
